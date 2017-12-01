@@ -1,0 +1,54 @@
+#search{
+	.search{
+		height: 1.06rem;
+		padding:0 0.24rem;
+		border-bottom: 1px solid #dedede;
+		line-height: 1.06rem;
+		font-size: 0.24rem;
+		a{
+			text-decoration: none;		
+		}
+		.left{
+			float: left;
+			color:#666;
+			width: 0.4rem;
+
+		}
+		.sea{
+			float:left;
+			margin:0.12rem 0rem 0.12rem 0.2rem;
+			border:none;
+			padding:0.2rem;
+			background: #efefef;
+			height:0.42rem;
+			border-radius: 0.1rem;
+			width:5.9rem;
+		}
+	}
+	.list{
+		background: #fff;
+		list-style: none;
+		ul{
+			li{
+				padding:0.25rem;
+				overflow: hidden;
+				border-bottom: 1px solid #dedede;
+				color:#333;
+				font-size: 0.28rem;
+				line-height: 0.4rem;
+				.title{
+					float: left;
+					width:5rem;
+					overflow:hidden;
+					text-overflow:ellipsis;
+					white-space: nowrap;
+				}
+				.area{
+					float:right;
+					width:2rem;
+					text-align: right;
+				}
+			}
+		}
+	}
+}

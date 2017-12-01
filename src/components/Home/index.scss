@@ -1,0 +1,205 @@
+#home{
+	.carousel{
+		height: 3.52rem !important;
+		  img{
+		  	width: 100%;
+	  	}
+	}
+	.wrapper{
+		padding:0.35rem;
+		.nav{
+			display: flex;
+		    overflow: hidden;
+		    list-style: none;
+		    margin: 0;
+		    padding: 0.45rem 0;
+		    text-align: center;
+		    position: relative;
+		    background: url(../../assets/left-top-border.png) left top no-repeat,url(../../assets/right-bottom-border.png) right bottom no-repeat;
+	    	background-size: 25%;
+	    	li{
+	    		flex:1;
+	    		position:relative;
+	    		font-size: 0.3rem;
+	    		.item{
+	    			color: #333;
+	    			text-decoration: none;
+	    			padding:0 0.24rem;
+	    			display:flex;
+	    			align-items:center;
+	    			justify-content: space-around;
+	    			.small{
+	    				display: block;
+	    				font-size: 0.15rem;
+	    			}   			
+	    		}
+	    		.left{
+	    			.icon{
+	    				span{
+	    					display: inline-block;
+	    					background:url(../../assets/category-icon.png) no-repeat;
+	    					background-size: cover;
+	    					width:0.93rem;
+	    					height: 0.93rem;
+	    				}
+	    			}
+	    		}
+	    		.right{
+	    			    border-left: 0.01rem solid #dedede;
+	    			.icon{
+	    				span{
+	    					display: inline-block;
+	    					background:url(../../assets/account-icon.png) no-repeat;
+	    					    background-size: cover;
+	    					width:0.93rem;
+	    					height: 0.93rem;
+	    				}
+	    			}
+	    		}
+	    	}
+		}
+		section{
+			.title{
+				font-size: 0.32rem;
+				line-height: 0.5rem;
+				border-left:0.16rem solid #333;
+				padding-left: 0.26rem;
+				color:#ff5400;
+				margin:0.48rem 0;
+				span{
+					color:#333;
+					line-height: 0.44rem;
+					font-size: 0.3rem;
+					width:2.10rem;
+					text-align: right;
+					padding-right:0.18rem;
+					border-bottom: 0.01rem solid #333;
+					display: block;
+				}
+			}
+			.showlist{
+				list-style: none;
+				color: #333;
+				display:flex;
+				justify-content:space-between;
+				flex-wrap:wrap;
+				.item{
+					width:30%;
+					margin-bottom: 0.12rem;
+					.ticketimg{
+						display:block;
+						width:100%;
+						height:2.9rem;
+					}
+					.txt{
+						font-size: 0.27rem;
+						line-height: 0.36rem;
+						height:0.72rem;
+						margin:0.12rem 0;
+						word-break: break-all;
+						overflow: hidden;
+					}
+					.data{
+						font-size: 0.18rem;
+						word-break: break-all;
+						overflow: hidden;
+						display: block;
+						line-height: 0.28rem;
+						height: 0.56rem;
+						vertical-align: top;
+					}
+				}
+			}
+			.activities{
+				overflow: hidden;
+				li{
+					list-style: none;
+					float: left;
+					padding: 0.12rem;
+					width:3.16rem;
+					height:1.84rem;
+					img{
+						width:100%;
+						height:100%;
+					}
+				}
+				li:nth-child(1){
+					height:3.7rem;
+				}
+			}
+		}
+		.link{
+			font-size: 0.18rem;
+			color:#333;
+			text-align: center;
+			img{
+				width:60px;
+				margin-right:0.24rem;
+				vertical-align: middle;
+			}
+		}
+		footer{
+			margin:0.48rem 0 0;
+			color: #333;
+			text-align: center;
+			font-size: 0.18rem;
+		}
+	}
+	.address{
+		position: absolute;
+		left:0;
+		top:0.23rem;
+		text-decoration: none;
+		width:1.74rem;
+		height:0.68rem;
+		line-height: 0.68rem;
+		text-align: center;
+		color:#fff;
+		background:rgba(0,0,0,0.54);
+		border:0.02rem solid #fff;
+		border-top-right-radius: 0.36rem;
+	    border-bottom-right-radius: 0.36rem;
+	    font-size:0.28rem;
+	    i{
+	    	color:#fff;
+	    	margin-left:0.25rem;
+	    	width:0.17rem;
+	    } 
+	}
+	.search{
+		position: absolute;
+		right:0;
+		top:0.23rem;
+		text-decoration: none;
+		width:1.36rem;
+		height:0.68rem;
+		line-height: 0.68rem;
+		text-align: center;
+		color:#fff;
+		background:rgba(0,0,0,0.54);
+		border:0.02rem solid #fff;
+		border-top-left-radius: 0.36rem;
+	    border-bottom-left-radius: 0.36rem;
+	    font-size:0.28rem;
+	    i{
+	    	color:#fff;
+	    	font-weight: 700;
+	    	width:0.17rem;
+	    } 
+	}
+	.bg{
+		width: 100%;
+		height: 100%;
+		background:#fff;
+		.loading{
+			position:absolute;
+			height: 2rem;
+			width: 2rem;
+			left:0;
+			right: 0;
+			top:0;
+			bottom:0;
+			margin:auto;
+		}
+	}
+}
